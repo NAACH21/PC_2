@@ -100,7 +100,7 @@ export default {
       fetch(url, options)
         .then((response) => response.json())
         .then((data) => {
-          this.movies = data.results.slice(0, 10);
+          this.movies = data.results.slice(0, 18);
           this.totalPages = data.total_pages;
           this.isLoading = false;
         })

@@ -60,7 +60,7 @@ export default {
             icon: "check_circle",
           });
 
-          this.$router.push("/dashboard");
+          this.$router.push("/dashboard/movies");
         })
         .catch((error) => {
           this.$q.notify({
